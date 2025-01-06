@@ -1,12 +1,12 @@
 const CACHE_NAME = 'auto-scroll-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/popup.css',
-    '/content.js',
-    '/icons/icon192.png',
-    '/icons/icon512.png',
-    '/manifest.webmanifest'
+    '.',
+    './index.html',
+    './popup.css',
+    './content.js',
+    './icons/icon192.png',
+    './icons/icon512.png',
+    './manifest.webmanifest'
 ];
 
 // 安装 Service Worker
